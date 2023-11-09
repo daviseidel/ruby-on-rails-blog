@@ -1,6 +1,6 @@
 # Ruby on Rails Blog
 
-This is my starter project for learning ruby on rails. It cover basic CRUD, and styling with bootstrap.
+This is my starter project for learning ruby on rails. It covers basic CRUD, and styling with bootstrap.
 
 ## Getting Started
 
@@ -33,11 +33,7 @@ This is my starter project for learning ruby on rails. It cover basic CRUD, and 
 ## Configuration
 
 - Customize the application by modifying the views, styles, and configurations in the respective directories.
-- Tailor the authentication settings in the `config/initializers/devise.rb` file to suit your needs.
 
-## Contribute
-
-Feel free to contribute by reporting issues or submitting pull requests. Your input is highly valued!
 
 ## License
 
