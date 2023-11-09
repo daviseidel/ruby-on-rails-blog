@@ -1,0 +1,21 @@
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/puma-6.4.0/ext/puma_http11
+/usr/bin/ruby2.7 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20231106-361016-1jqa9m7.rb extconf.rb
+checking for BIO_read() in -llibcrypto... no
+checking for BIO_read() in -lcrypto... no
+checking for BIO_read() in -llibeay32... no
+** Puma will be compiled without SSL support
+creating Makefile
+
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/puma-6.4.0/ext/puma_http11
+make DESTDIR\= clean
+
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/puma-6.4.0/ext/puma_http11
+make DESTDIR\=
+compiling http11_parser.c
+compiling mini_ssl.c
+compiling puma_http11.c
+linking shared-object puma/puma_http11.so
+
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/puma-6.4.0/ext/puma_http11
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20231106-361016-3ja0np/puma

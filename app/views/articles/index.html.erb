@@ -1,0 +1,19 @@
+<head>
+  <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"  crossorigin="anonymous">
+</head>
+
+<%= render "header"%>
+
+<h1 class="display-1">Artigos</h1>
+<p class="h3 text-secondary">Todos os artigos:</p>
+<ul>
+<% @artigos.each do |artigos| %>
+    <li>
+        <%= link_to artigos.titulo, artigos%>
+    </li>
+<%end%>
+</ul>
+
+<%= link_to "Escrever Artigo", new_article_path, :class => "btn btn-primary"%>
+
+

@@ -1,0 +1,15 @@
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/stringio-3.0.8/ext/stringio
+/usr/bin/ruby2.7 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20231106-361016-1032h13.rb extconf.rb
+creating Makefile
+
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/stringio-3.0.8/ext/stringio
+make DESTDIR\= clean
+
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/stringio-3.0.8/ext/stringio
+make DESTDIR\=
+compiling stringio.c
+linking shared-object stringio.so
+
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/stringio-3.0.8/ext/stringio
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 stringio.so ./.gem.20231106-361016-1vt7gq8

@@ -1,0 +1,20 @@
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+/usr/bin/ruby2.7 -I /usr/lib/ruby/vendor_ruby -r ./siteconf20231106-361016-2sw21r.rb extconf.rb
+checking for termios.h... yes
+checking for cfmakeraw() in termios.h... yes
+checking for sys/ioctl.h... yes
+checking for HAVE_RUBY_FIBER_SCHEDULER_H... no
+checking for rb_scheduler_timeout()... no
+creating Makefile
+
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= clean
+
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\=
+compiling console.c
+linking shared-object io/console.so
+
+current directory: /home/davisb/Downloads/blog/vendor/bundle/ruby/2.7.0/gems/io-console-0.6.0/ext/io/console
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 console.so ./.gem.20231106-361016-1c9w12u/io
